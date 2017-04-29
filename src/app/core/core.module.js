@@ -12,6 +12,7 @@
     	'ui.router',
     	'ui.bootstrap',
     	'toastr',
-        'ngMap'
+        'ngMap',
+        'ngMaterial'
     	]);
 })();

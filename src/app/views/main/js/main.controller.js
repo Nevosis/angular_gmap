@@ -12,14 +12,13 @@
     vm.users = users;
 
     vm.showToastr = showToastr ;
-console.log(vm);
+
     function showToastr(){
       var i = Math.trunc((Math.random()*10)/5);
     	toastr.success('Hello world!',users[i].firstName+" "+users[i].lastName);
     }
-$scope.$on('mapInitialized', function(event, evtMap) {
-      console.log(event);
-      console.log(evtMap);
+
+    $scope.$on('mapInitialized', function(event, evtMap) {
       vm.map = evtMap;
 
       var markers = [];
