@@ -3,7 +3,8 @@
 
   angular
     .module('technical', [
-    	'technical.users'
+    	'technical.users',
+    	'technical.log'
     	]);
 
 })();

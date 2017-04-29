@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController(users,toastr, $scope) {
+  function MainController(users,toastr, logService, $scope) {
     var vm = this;
 
     vm.users = users;
